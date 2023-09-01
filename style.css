@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header{
+    background-color: #222222;
+    height: 100px;
+    font-family: 'roboto';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 230px;
+}
+
+.logo p{
+    font-family:'roboto';
+    font-weight:900;
+    font-size: 25px;
+    color: #39B24A;
+    padding-left: 10px;
+}
+
+.logo p span:last-child {
+    color: #FC200C;
+}
+
+.logo p span:first-child {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+ul li {
+    list-style: none;
+    color: #F3F3F3;
+    font-size: 16px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 30px 20px 15px;
+}
+
+.delivery{
+    background-image: url('../img/delivery.jpg');
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.delivery span{
+    color:white;
+}
+
+.delivery h2{
+    color:red;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.podio{
+    width: 490px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.podio div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 390px;
+}
+
+.podio h2 {
+    color: #FC200C;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+.podio h3{
+    font-size: 20px;
+    text-align: left;
+    margin: 40px auto 10px 45px;
+}
+
+
+
+footer{
+    background-color:#222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    height: 150px;
+    padding: 10px 20px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 110px;
+}
